@@ -15,7 +15,7 @@ class Alert extends \denis303\codeigniter4\Widget
 
     public $type = self::TYPE_INFO;
 
-    public $typeClasses = [
+    public $typeOptions = [
         self::TYPE_ERROR => ['class' => 'alert alert-danger'],
         self::TYPE_INFO => ['class' => 'alert alert-info'],
         self::TYPE_SUCCESS => ['class' => 'alert alert-success']
