@@ -15,7 +15,7 @@ class FormGroup extends \denis303\codeigniter4\Widget
 
     public function run()
     {
-        return $this->render('form-input-container', [
+        return $this->render('form-group', [
             'label' => $this->label,
             'labelOptions' => $this->labelOptions,
             'content' => $this->content,
