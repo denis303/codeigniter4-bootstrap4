@@ -1,0 +1,12 @@
+{
+    "name": "denis303/codeigniter4-bootstrap4",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "denis303\\codeigniter4\\" : ""
+        }
+    },
+    "require": {
+        "denis303/codeigniter4-widget": "dev-master"
+    }
+}
