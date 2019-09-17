@@ -3,10 +3,11 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "denis303\\codeigniter4\\" : ""
+            "denis303\\bootstrap4\\" : ""
         }
     },
     "require": {
-        "denis303/codeigniter4-widget": "dev-master"
+        "denis303/codeigniter4-widget": "dev-master",
+        "denis303/codeigniter4-form": "dev-master"
     }
 }
