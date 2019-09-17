@@ -13,7 +13,7 @@ class Alert extends \denis303\codeigniter4\Widget
     {
         if (!$this->message)
         {
-            return;
+            return '';
         }
 
         return $this->render('alert', [
