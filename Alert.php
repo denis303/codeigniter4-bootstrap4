@@ -13,7 +13,7 @@ class Alert extends \denis303\codeigniter4\Widget
 
     public $message;
 
-    public $type = seld::TYPE_INFO;
+    public $type = self::TYPE_INFO;
 
     public $typeClasses = [
         self::TYPE_ERROR => ['class' => 'alert alert-danger'],
