@@ -2,7 +2,7 @@
 
 namespace denis303\bootstrap4;
 
-class FormGroup extends denis303\codeigniter4\Widget
+class FormGroup extends \denis303\codeigniter4\Widget
 {
 
     public $label;
