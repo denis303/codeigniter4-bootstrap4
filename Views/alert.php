@@ -1,1 +1,1 @@
-<div class="alert alert-<?= $type;?>"><?= $message;?></div>
+<div<?= stringify_attributes($options);?>><?= $message;?></div>
